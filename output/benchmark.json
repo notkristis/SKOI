@@ -1,0 +1,72 @@
+{
+  "block_size": 11,
+  "C": 2.0,
+  "sizes": [
+    {
+      "height": 480,
+      "width": 640,
+      "methods": {
+        "mean_opencv": {
+          "seconds": 0.00025304174050688744,
+          "mpix_per_sec": 1214.0289557945023
+        },
+        "mean_native": {
+          "seconds": 0.00656587490811944,
+          "mpix_per_sec": 46.787367151956055
+        },
+        "gaussian_opencv": {
+          "seconds": 0.00048408424481749535,
+          "mpix_per_sec": 634.6002855676855
+        },
+        "gaussian_native": {
+          "seconds": 0.0032232911325991154,
+          "mpix_per_sec": 95.30631499373371
+        }
+      }
+    },
+    {
+      "height": 720,
+      "width": 1280,
+      "methods": {
+        "mean_opencv": {
+          "seconds": 0.000720249954611063,
+          "mpix_per_sec": 1279.5557904584202
+        },
+        "mean_native": {
+          "seconds": 0.020274875219911337,
+          "mpix_per_sec": 45.45527358387512
+        },
+        "gaussian_opencv": {
+          "seconds": 0.001237416174262762,
+          "mpix_per_sec": 744.7777224579098
+        },
+        "gaussian_native": {
+          "seconds": 0.01295758318156004,
+          "mpix_per_sec": 71.12437459105264
+        }
+      }
+    },
+    {
+      "height": 900,
+      "width": 1600,
+      "methods": {
+        "mean_opencv": {
+          "seconds": 0.0011581247672438622,
+          "mpix_per_sec": 1243.3893486510547
+        },
+        "mean_native": {
+          "seconds": 0.030693582724779844,
+          "mpix_per_sec": 46.915344256551876
+        },
+        "gaussian_opencv": {
+          "seconds": 0.0014857910573482513,
+          "mpix_per_sec": 969.180688548512
+        },
+        "gaussian_native": {
+          "seconds": 0.019268750213086605,
+          "mpix_per_sec": 74.73240267664099
+        }
+      }
+    }
+  ]
+}
